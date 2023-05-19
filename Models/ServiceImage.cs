@@ -7,4 +7,5 @@ public class ServiceImage
     public bool IsActive { get; set; }
     public int ServiceId { get; set; }
     public Service Service { get; set; }
+    public string ImagePath { get; set; }
 }
